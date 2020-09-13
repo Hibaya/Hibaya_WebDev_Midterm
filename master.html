@@ -18,10 +18,17 @@
 .text-center {
     text-align: center;
 }
-.master-item:hover, .active-item {
-    background: 	#0080ff;
-    color: white;
-    cursor: pointer
+.master-item:hover, .active-item a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color:#00A0C6; 
+     text-decoration:none; 
+     cursor:pointer;
+}
 }
 
 .master {
@@ -46,19 +53,13 @@
 }
 
 .detail{
-   a {
-    color: inherit;
-    text-decoration: none;
-}
-
-a:hover 
-{
-     color:#00A0C6; 
-     text-decoration:none; 
-     cursor:pointer;
-}
-}
-
+  padding: 100px;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 1;
+    color: 		#0080ff;
+    height: vh;
+    background: white
 .md-container  {
     position: relative;
 }
