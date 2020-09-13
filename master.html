@@ -4,7 +4,7 @@
     font-size: 32px;
     border-bottom: 2px solid #4CD4B0;
     padding: 15px;
-    color: #4CD4B0;
+    color:#0080ff;
     
 }
 .master-item {
@@ -12,14 +12,14 @@
     border-bottom: 2px solid #4CD4B0;
     padding: 15px;
     background: white;
-    color:#4CD4B0; 
+    color:	#0080ff; 
 }
 
 .text-center {
     text-align: center;
 }
 .master-item:hover, .active-item {
-    background: #4CD4B0;
+    background: 	#0080ff;
     color: white;
     cursor: pointer
 }
@@ -50,7 +50,7 @@
     box-sizing: border-box;
     position: absolute;
     z-index: 11;
-    color: #4CD4B0;
+    color: 	#0080ff;
     height: 100vh;
     background: white
 }
@@ -102,7 +102,7 @@
     }
 
     .master{
-        border-right: 3px solid #4CD4B0;
+        border-right: 3px solid 	#0080ff;
     }
 }
   </style>
@@ -111,10 +111,10 @@
     <h1 class="title text-center">Master/Detail</h1>
     <div class="md-container">
         <div class="col-3 master">
-            <div class="master-item active-item" onclick="select(this)">Option 1</div>
-            <div class="master-item" onclick="select(this)">Option 2</div>
-            <div class="master-item" onclick="select(this)">Option 3</div>
-            <div class="master-item" onclick="select(this)">Option 4</div>
+            <div class="master-item active-item" onclick="select(this)">Poem</div>
+            <div class="master-item" onclick="select(this)">Markup </div>
+            <div class="master-item" onclick="select(this)">Wishlist</div>
+            <div class="master-item" onclick="select(this)">Calendar</div>
         </div>
         <div  class="col-9 detail">
             <button id="back-btn" class="hidden-md" onclick="back()">< Back</button>
@@ -122,4 +122,8 @@
         </div>
       </div>
 </body>
-  <script src="detail.html> </script>
+ 
+  <div style="margin-left:10%;padding:1px 100px;height:100%;">
+<div class="c-9 det">
+            <iframe src="poem.html" name="iname" frameborder=""height="100%" width="100%"></iframe>
+        </div>
