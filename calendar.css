@@ -1,0 +1,44 @@
+body{
+  
+  
+        background-color:  #06E8C0;
+   background-image: url("https://hibaya.github.io/Hibaya_WebDev_Midterm/calendar.jpg");
+   
+  
+      }
+      .container {
+        max-width: 800px; 
+        margin: auto; 
+        font-family: Impact, Charcoal, sans-serif;
+      }
+      .month {
+        text-allign: center;
+        background-color: #;
+        font-size: 2.5em; 
+        letter-spacing: 5px; 
+        color:  white; 
+        padding: 25px; 
+        border: 1px solid #; 
+      }
+      table, th, td {
+        width: 100%; 
+        table-layout:fixed; 
+        text-allign: center; 
+        font-size: 16px; 
+        border-collapse: collapse; 
+        border: ;   
+      }
+      tr, th, td {
+        padding: 20px;
+      }
+      th {
+        background:  #;
+        color: #; 
+      }
+      td {
+        background:  #; 
+      }
+      #bmonth {
+        font-size: 20px;
+        background: #;
+      }
